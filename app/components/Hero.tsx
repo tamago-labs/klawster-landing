@@ -27,7 +27,7 @@ export default function Hero() {
                   <span>Live on</span>
                   <img src="https://kilolend.xyz/images/blockchain-icons/kub-chain-icon.png" alt="KUB" className="w-6 h-6 mx-2" />
                   <span className='hidden lg:inline'>KUB and</span>
-u                  <img src="https://kilolend.xyz/images/blockchain-icons/kaia-token-icon.png" alt="KAIA" className="w-6 h-6 mx-2" />
+                  <img src="https://kilolend.xyz/images/blockchain-icons/kaia-token-icon.png" alt="KAIA" className="w-6 h-6 mx-2" />
                   <span className='hidden lg:inline'>KAIA · Chat with AI on Discord</span>
                 </p>
               </div>

@@ -23,34 +23,7 @@ export default function Footer() {
                   Autonomous trading and capital management on-chain
                 </p>
               </div>
-
-              {/* Links */}
-              {/* <div>
-                <h4 className="text-lg font-semibold mb-4">Resources</h4>
-                <ul className="space-y-2">
-                  <li>
-                    <a href="#live-activity" className="text-gray-400 hover:text-white transition-colors">
-                      Live Activity
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://explorer.kubchain.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                      KUB Explorer
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://explorer.kaia.io" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                      KAIA Explorer
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                      Discord Community
-                    </a>
-                  </li>
-                </ul>
-              </div> */}
-
+ 
               {/* Actions */}
               <div>
                 <h4 className="text-lg font-semibold mb-4">Get Started</h4>
