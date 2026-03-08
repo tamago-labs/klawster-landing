@@ -1,12 +1,8 @@
 "use client"
  
-import { useState } from 'react';
 import Button from './ui/Button';
-import Modal from './ui/Modal';
 
 export default function Hero() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
   return (
     <section className="w-full bg-blue-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,7 +37,7 @@ export default function Hero() {
                   Trade $KLAW
                 </Button>
                 <Button
-                  onClick={() => setIsModalOpen(true)}
+                  href="https://discord.gg/BDQnjcHbnj"
                   variant="secondary"
                   className="bg-transparent text-white border-2 border-white hover:bg-white hover:text-blue-900"
                 >
@@ -66,35 +62,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      {/* Discord Coming Soon Modal */}
-      <Modal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        title="Discord Coming Soon!"
-      >
-        <div className="space-y-4">
-          <p className="text-gray-600">
-            Our AI agent Discord community is being prepared! We're working hard to create the best experience for you to chat with our autonomous agent.
-          </p>
-          <p className="text-gray-600">
-            Follow our social media channels for the launch announcement - coming in about a week!
-          </p>
-          <div className="pt-4">
-            <a
-              href="https://x.com/kilolend_xyz"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors w-full"
-            >
-              <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-              </svg>
-              Follow us on X (Twitter)
-            </a>
-          </div>
-        </div>
-      </Modal>
     </section>
   );
 }
